@@ -7,7 +7,7 @@ branches:
 build: off  # будем использовать свой скрипт сборки
 
 before_install:
-  - ps: chmod=+x ./gradlew  # флаг chmod +x делает файл исполняемым
+  - chmod=+x ./gradlew  # флаг chmod +x делает файл исполняемым
 
 install:
   # запускаем SUT (запоминаем информацию о процессе в переменной $App)
