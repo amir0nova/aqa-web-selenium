@@ -11,7 +11,8 @@ install:
   - ps: $App = Start-Process -FilePath java -ArgumentList "-jar ./artifacts/app-order.jar" -PassThru
 
 build_script:
-  - ps: ./gradlew test --info "-Dselenium.headless=true"  # стартуем Selenium в Headless-режиме (см.ниже)
+  # добавляю флаг chmod +x, чтобы сделать файл исполняемым:
+  - ps: chmod +x ./gradlew test --info "-Dselenium.headless=true"  # стартуем Selenium в Headless-режиме (см.ниже)
 
 on_finish:
   - ps: Stop-Process -Id $App.Id  # оставливаем SUT
