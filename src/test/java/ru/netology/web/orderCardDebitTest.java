@@ -17,7 +17,7 @@ public class orderCardDebitTest {
     private WebDriver driver;
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "driver\\win\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
     }
     @BeforeEach
     void setUp() {
