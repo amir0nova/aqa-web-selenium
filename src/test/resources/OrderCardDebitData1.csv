@@ -2,5 +2,5 @@ Tests "Happy path"
 surnameName,number,message
 Иванова Татьяна,+79205552233,1.Should Form Filled Correctly
 Иванова-Ипполитова Анна,+79242486148,1.Should Form Filled Correctly With Double Surname Or Name Inside With Hyphen
-Ерёмкина Полина,+79065610823,1.Should Form Filled Correctly With Letter "Yo" (bag 009)
+Ерёмкина Полина,+79065610823,1.Should Form Filled Correctly With Letter "Yo" (bag 004)
 

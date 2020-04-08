@@ -5,7 +5,7 @@ surnameName,number,index,msgExpected, message
 " ","+79041248695",0,"Поле обязательно для заполнения",2.1.Should Surname And Name Filled Blank
 "Гранин Давид","",1,"Поле обязательно для заполнения",2.2.Should Mobile Phone Filled Full Blank Field
 "Моргунов Николай"," ",1,"Поле обязательно для заполнения",2.2.Should Mobile Phone Filled Blank
-"Кирилл","+79135432890",0,"Фамилия и имя указаны неверно. Введите и фамилию, и имя.",2.3.Should Form Filled Only Surname Or Only Name (bag 010)
+"Кирилл","+79135432890",0,"Фамилия и имя указаны неверно. Введите и фамилию, и имя.",2.3.Should Form Filled Only Surname Or Only Name (bag 005)
 "Fedorova Maria",+79182548652,0,"Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.",2.3.Should Surname And Name Filled English Letters
 "Бояринова Мария$%","+78695124563",0,"Имя и Фамилия указаные неверно. Допустимы только русские буквы, пробелы и дефисы.",2.3.Should Surname And Name Filled Full Special Characters
 "Чимарев Павел"," 79655418953",1,"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",2.4.Should Mobile Phone Filled Blank Instead Of Plus
@@ -14,6 +14,6 @@ surnameName,number,index,msgExpected, message
 "Жилова Ольга","+796458654190",1,"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",2.4.Should Mobile Phone Filled Plus And 12 Singles Format
 "Танин Александр","=+ _-8945569",1,"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",2.4.Should Mobile Phone Filled Special Characters
 "Покровский Валентин","+798125а3329",1,"Телефон указан неверно. Должно быть 11 цифр, например, +79012345678.",2.4.Should Mobile Phone Filled With Letter Instead Of Figure
-"Мухин Вячеслав","+89298045637",1,"Телефон указан неверно. Должно быть 11 цифр, первая цифра 7, например, +79012345678.",2.4.Should Mobile Phone Filled Figures 8 Instead Of 7 (bag 011)
-"Замоскворецкая Диана","+74952254433",1,"Введен номер городского телефона. Введите номер мобильного телефона.",2.4.Should Mobile Phone Filled Moscow City International Format (bag 012)
-"Тверская Дарья","+74822325103",1,"Введен номер городского телефона. Введите номер мобильного телефона.",2.4Should Mobile Phone Filled Tver City International Format (bag 012)
+"Мухин Вячеслав","+89298045637",1,"Телефон указан неверно. Должно быть 11 цифр, первая цифра 7, например, +79012345678.",2.4.Should Mobile Phone Filled Figures 8 Instead Of 7 (bag 006)
+"Замоскворецкая Диана","+74952254433",1,"Введен номер городского телефона. Введите номер мобильного телефона.",2.4.Should Mobile Phone Filled Moscow City International Format (bag 007)
+"Тверская Дарья","+74822325103",1,"Введен номер городского телефона. Введите номер мобильного телефона.",2.4Should Mobile Phone Filled Tver City International Format (bag 007)
